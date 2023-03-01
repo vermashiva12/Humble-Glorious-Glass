@@ -6,6 +6,9 @@ const Services = () => {
         {/* <div className='flex flex-col items-center py-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-500 text-gray-600'>Services</p>
         </div> */}
+        <div>
+       <p className='text-4xl font-bold inline text-center border-b-4 border-pink-500 text-black/90'>Services</p>
+       </div>
         <div className='relative p-4'>
             <h3  className=' absolute z-10 top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%] text-white text-2xl font-bold'>Shower Doors</h3>
             <img src='https://images.adsttc.com/media/images/623a/ccba/3e4b/3174/1a00/0011/large_jpg/FI.jpg?1648020659 ' alt=''

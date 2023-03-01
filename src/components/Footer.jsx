@@ -3,13 +3,33 @@ import Logo from '../assets/LogoA.svg'
 
 const Footer = () => {
   return (
-    <div className='w-full h-[120px] justify-between items-start px-4 bg-gray-800/90 text-gray-100'>
+    <div className='w-full h-[80px] justify-between items-start px-4 bg-gray-800/90 text-gray-100'>
         
 {/*      
             <img src={Logo} alt='Logo' style={{width: '20px'}} />
          */}
-            <p className=' py-6 text-right text-[11px]'>Copyright @ 2023 Humble Glorious Glass. Rights Reserved </p>
-            <p className='text-right  text-[9px]'>Desgined by Shivanshu! </p>
+          <div className='w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-700/80'>
+        <ul className=' hidden sm:flex px-4'>
+            <li>
+                <a href='#home'>Home</a>
+            </li>
+            <li>
+                <a href='#Services'>Services</a>
+            </li>
+            <li>
+                <a href='#Projects'>Projects</a>
+            </li>
+
+            <li>
+                <a href='#about'>About</a>
+            </li>
+            <li>
+                <a href='#contact'>Contact</a>
+            </li>
+        </ul>
+        </div>
+            <p className=' text-gray-100 py-6 text-right text-[11px]'>Copyright @ 2023 Humble Glorious Glass.  Desgined by Shivanshu Rights Reserved </p>
+           
         
     </div>
   )
