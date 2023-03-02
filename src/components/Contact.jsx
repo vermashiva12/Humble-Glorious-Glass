@@ -3,8 +3,8 @@ import React from 'react'
 const Contact = () => {
   return (
     <div id='contact' className='max-w-[1140px] m-auto w-full p-4 py-16' >
-        <h2 className='text-center text-gray-700 '>Contact Us</h2>
-        <p className='text-center text-gray-700 py-2'>We are Here to Help</p>
+        <h2 className='text-center text-[38px] font-bold text-gray-700 '>Contact Us</h2>
+        <p className='text-center  text-gray-700 py-2'>We are Here to Help</p>
         <div className='grid md:grid-cols-2 '>
             <img className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]'
             src='https://www.nobroker.in/blog/wp-content/uploads/2022/02/Bathroom-Glass-Partitions.jpg' alt='mainBG' />

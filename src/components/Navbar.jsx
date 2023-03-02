@@ -69,25 +69,25 @@ const Navbar = () => {
     </div>
     <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
                     <a className='flex justify-between items-center w-full text-white'
                      href='https://www.facebook.com/people/Humble-Glorious-Glass/pfbid0sZWWKXEj57n1KyjR4wMMiD81ji3M9dC5WG2bx3g4igB1HuSvcvQWavEgXrwQYhe3l/?mibextid=LQQJ4d'  target='_blank'>
                         Facebook <FaFacebook  size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600'>
                     <a className='flex justify-between items-center w-full text-white'
                      href='https://www.instagram.com/humble_glorious/?igshid=YmMyMTA2M2Y%3D' target='_blank'>
                         Instagram <FaInstagram  size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-300'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
                     <a className='flex justify-between items-center w-full text-white'
                      href='mailto:humbleglassinc@gmail.com'>
                         Email<HiOutlineMail  size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-500'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-600'>
                     <a className='flex justify-between items-center w-full text-white'
                      href={"/"} target="_blank" rel="noreferrer">
                         Catelogue<BsFillPersonLinesFill  size={30}/>
