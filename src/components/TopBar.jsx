@@ -22,6 +22,11 @@ const TopBar = () => {
                 <p className='text-sm text-gray-700 '>1-236-818-1008</p>
 
             </div>
+            <div className='hidden md:flex items-center px-6'>
+                <AiFillPhone className='mr-2 text-[var(--primary-dark)]'/>
+                <p className='text-sm text-gray-700 '>1-905-872-3010</p>
+
+            </div>
             <div>
                 <button>Contact Us</button>
             </div>

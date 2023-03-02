@@ -2,11 +2,11 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div id='Services' className='max-w-[1140px] m-auto w-full md:flex mt-[-75px]'>
+    <div id='Services' className='max-w-[1140px] m-auto w-full md:flex mt-[-35px]'>
         {/* <div className='flex flex-col items-center py-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-500 text-gray-600'>Services</p>
         </div> */}
-        <div>
+        <div className='py-12'>
        <p className='text-4xl font-bold inline text-center border-b-4 border-pink-500 text-black/90'>Services</p>
        </div>
         <div className='relative p-4'>
