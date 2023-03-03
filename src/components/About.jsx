@@ -5,9 +5,7 @@ const About = () => {
     <div id='about' className='max-w-[1140px] m-auto w-full p-4 py-16'>
         <h2 className='text-center text-gray-700 p-4 text-4xl '>About Us</h2>
         <div className='text-[22px] font-bold py-4'>
-            <p>Humble Glorious Glass inc. is a leading provider of custom glass and mirror products serving home builders, contractors and home-owners in Brampton, Missisauga and the GTA. With our in-house fabrication capabilities, we are able to provide our customers with highly customized solutions for all of their glass needs. 
-​
-We have stood the test of time because we have, and will always, focus on the needs of our customers first. Today, we provide a wide variety of custom glass and mirror products, including: frameless glass showers and tub enclosures, glass guards, glass railings, antique mirrors, segmented mirrors, glass floors, mirror walls and a variety of other, custom glass products. We work closely with your design team, contractors and homeowners to ensure we understand your requirements and deliver a product that meets expectations.</p>
+            <p>Humble Glorious Glass Inc. serves home builders, contractors, and homeowners in Greater Toronto Area as a prominent provider of custom glass and mirror products. We are able to provide our customers with highly customized solutions for all of their glass requirements thanks to our in-house fabrication capabilities. We have endured the test of time because we have always prioritized our clients' requirements. Today, we offer a wide range of custom mirror and glass products, such as: Shower and tub enclosures made of frameless glass, guards made of glass, Glass railings, antique mirrors, segmented mirrors, glass floors, mirror walls, and a wide range of other custom glass products are available. We collaborate closely with your homeowners, contractors, and design team to ensure that we comprehend your needs and provide a product that meets your expectations.</p>
 
         </div>
     </div>

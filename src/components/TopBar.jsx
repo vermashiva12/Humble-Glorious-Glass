@@ -28,7 +28,7 @@ const TopBar = () => {
 
             </div>
             <div>
-                <button>Contact Us</button>
+                <button>Catelogue</button>
             </div>
         </div>
     </div>
