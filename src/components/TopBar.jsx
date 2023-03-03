@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillPhone, AiOutlineClockCircle} from 'react-icons/ai'
 
 import Logo from '../assets/LogoA.svg'
+import Cl from '../assets/catelogue.pdf'
 
 
 const TopBar = () => {
@@ -28,7 +29,9 @@ const TopBar = () => {
 
             </div>
             <div>
-                <button>Catelogue</button>
+                <a href={Cl} target='_blank'>
+                <button >Catelogue</button>
+                </a>
             </div>
         </div>
     </div>
