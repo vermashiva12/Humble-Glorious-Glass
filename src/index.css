@@ -7,6 +7,27 @@
   --primary-light:#709dff;
 }
 @layer base {
+  h1 {
+     font-family: oswald, sans-serif;
+    font-style: normal;
+    font-weight: 900; 
+    
+    /* font-family: mono45-headline, monospace;
+    font-style: normal;
+    font-weight: 700; */
+
+    /* font-family: railroad-gothic-atf, sans-serif;
+font-style: normal;
+font-weight: 800; */
+    
+  } 
+  li, p
+  {
+    font-family: buena-park-jf, serif;
+font-style: normal;
+font-weight: 700;
+  }
+
   html{
     @apply scroll-smooth
   }
@@ -17,7 +38,8 @@
     @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
   }
   h2 {
-    @apply text-xl font-bold
+    @apply text-xl font-semibold;
+
   }
   
 }
