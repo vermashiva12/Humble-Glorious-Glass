@@ -2,12 +2,12 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div id='Services' className='max-w-[1140px] m-auto w-full md:flex mt-[-35px]'>
+    <div id='Services' className='max-w-[1140px] m-auto w-full md:flex mt-[-5px] py-12'>
         {/* <div className='flex flex-col items-center py-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-500 text-gray-600'>Services</p>
         </div> */}
         <div className='py-12'>
-       <p className='text-4xl font-bold inline text-center border-b-4 border-pink-500 text-black/90'>Services</p>
+       <h2 className='text-4xl font-bold inline text-center  text-black/90'>Top Services</h2>
        </div>
         <div className='relative p-4'>
             <h3  className=' absolute z-10 top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%] text-white text-2xl font-bold'>Shower Doors</h3>

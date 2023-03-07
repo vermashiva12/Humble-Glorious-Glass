@@ -1,13 +1,14 @@
 import React from 'react'
+import contact from '../assets/contact.PNG'
 
 const Contact = () => {
   return (
     <div id='contact' className='max-w-[1140px] m-auto w-full p-4 py-16' >
         <h2 className='text-center text-[38px] font-bold text-gray-700 '>Contact Us</h2>
         <p className='text-center  text-gray-700 py-2'>We are Here to Help</p>
-        <div className='grid md:grid-cols-2 '>
-            <img className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]'
-            src='https://www.nobroker.in/blog/wp-content/uploads/2022/02/Bathroom-Glass-Partitions.jpg' alt='mainBG' />
+        <div className='grid aspect-auto md:grid-cols-2 '>
+            <img style={{width:'500px', height: '500px'}} className='w-[80%] md:h-full object-fill p-2 '
+            src={contact} alt='mainBG' />
         <form method='POST' action='https://getform.io/f/9cb5c2c2-d8ab-4f62-8a6b-04ebe25548af'>
             <div className='grid grid-cols-2 '>
                 <input className='border m-2 p-2'  type="text" placeholder='First Name' name='first name'/>
